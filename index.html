@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <title>後台首頁</title>
+    
+    <style>  
+        *{
+            margin:0px;
+            padding:0px;
+        }
+
+        html,body{
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin:0;
+        }
+
+        .container{
+            display: flex;
+            height: 700px;
+            width: 1500px;
+        }
+
+        .left-panel{
+
+            width: 15%;
+            height: 100%;
+            background-color: #0f0f11;
+        }
+
+        .right-panel{
+            width: 84%;
+            height: 100%;
+            vertical-align: top;
+        }
+
+        .right-panel table,tr,td,th{
+            border:solid 1px black;
+            border-collapse: collapse;
+        }
+
+        .right-panel table{
+            width: 600px;
+        }
+
+        .right-panel td{
+            padding:10px 20px 
+        }
+
+        .right-panel tr:nth-child(2n+1){
+           background-color:#c2c2d6;
+        }
+
+        .left-btn{
+            text-align: center;
+            margin-top:30px;
+        }
+
+        .left-btn:hover{
+            background-color:#99ccff;
+        }
+
+        .left-btn>a{
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .left-btn:nth-child(1){
+            margin-top: 100px;
+        }
+
+        .left-btn>a>i{
+            margin-right:10px
+        }
+
+        .left-btn>a:link{
+            color:white;
+        }
+
+        .left-btn>a:visited{
+            color:white;
+        }
+
+        .right-container{
+            width: 300px;
+            margin:auto;
+            text-align: center;
+        }
+
+        .title{
+            margin-top: 100px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="left-panel">
+            <div class="left-btn"><a href=""><i class="fas fa-store"></i>商家系統</a></div>
+            <div class="left-btn"><a href=""><i class='fas fa-user-alt'></i>會員系統</a></div>
+            <div class="left-btn"><a href=""><i class="fas fa-cart-arrow-down"></i>商品系統</a></div>
+            <div class="left-btn"><a href=""><i class="fas fa-ticket-alt"></i>訂票系統</a></div>
+            <div class="left-btn"><a href=""><i class="fas fa-clipboard-list"></i>活動系統</a></div>
+            <div class="left-btn"><a href=""><i class="fa fa-bar-chart"></i>報表系統</a></div>
+        </div>
+        
+        <div class="right-panel">
+
+            <h1 class="title">期中專題功能演示-第四組</h1>
+                <table class="right-container">
+                    <tr>
+                        <th>座號</th>
+                        <th>組員</th>
+                        <th>負責功能</th>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>張伊婷</td>
+                        <td>報表</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>饒孝遠</td>
+                        <td>活動</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>薛雅文</td>
+                        <td>票券</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>林繼遠</td>
+                        <td>登入</td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>詹宗翰</td>
+                        <td>廠商</td>
+                    </tr>
+                    <tr>
+                        <td>38</td>
+                        <td>陳彥霖</td>
+                        <td>商品</td>
+                    </tr>
+                </table>     
+        </div>
+
+    </div> 
+    
+    <script>
+
+    </script>
+
+</body>
+</html>
